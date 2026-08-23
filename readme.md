@@ -7,6 +7,7 @@ This repository contains code and sample data used in creating a dataset of goog
 The following files are included: 
 
 **rss_scraper.py**
+
 This is the main scraping script. It produces a CSV file containing data from german language google news articles. It does this by building RSS search queries for each day from the current to the end data for each of the four categories (Deutschland, Wirtschaft, Technologie, Gesundheit) that where subject to this project. 
 The CSV file contains the following columns: titel,source,original_url,published_raw,category,article_date.
 Usage: python rss_scraper.py
